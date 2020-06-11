@@ -10,6 +10,10 @@
     "type": "git",
     "url": "https://github.com/lumi-software/eslint-config.git"
   },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
   "author": "nghinv",
   "license": "MIT",
   "bugs": {
