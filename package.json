@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint config",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lumi-software/eslint-config.git"
+    "url": "https://github.com/nghinv-software/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -17,9 +17,9 @@
   "author": "nghinv",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lumi-software/eslint-config/issues"
+    "url": "https://github.com/nghinv-software/eslint-config/issues"
   },
-  "homepage": "https://github.com/lumi-software/eslint-config#readme",
+  "homepage": "https://github.com/nghinv-software/eslint-config#readme",
   "publishConfig": {
     "access": "public"
   },
