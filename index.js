@@ -4,32 +4,43 @@
  */
 
 module.exports = {
-  "extends": [
-    "airbnb",
-    "eslint:recommended",
-    "plugin:react/recommended"
+  'extends': [
+    'airbnb',
+    'eslint:recommended',
+    'plugin:react/recommended',
   ],
-  "globals": {
-    "Atomics": "readonly",
-    "fetch": false,
-    "SharedArrayBuffer": "readonly",
-    "__DEV__": true
+  'globals': {
+    'Atomics': 'readonly',
+    'fetch': false,
+    'SharedArrayBuffer': 'readonly',
+    '__DEV__': true,
+    'before': true,
+    'beforeEach': true,
+    'afterEach': true,
+    'after': true,
+    'device': true,
   },
-  "plugins": [
-    "react"
+  'plugins': [
+    "react",
   ],
-  "env": {
-    "jest": true
+  'env': {
+    'jest': true,
   },
-  "parser": "babel-eslint",
-  "rules": {
+  'parser': 'babel-eslint',
+  'rules': {
     'react/prefer-stateless-function': 'off',
     'max-len': ["warn", { code: 400, tabWidth: 2 }],
     'no-use-before-define': 'off',
     'consistent-return': 'off',
     'react/jsx-filename-extension': 'off',
     'react/prop-types': 'off',
-    'comma-dangle': 'off',
+    'comma-dangle': ['error', {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'always-multiline',
+    }],
     'no-console': 'off',
     'no-unused-vars': 'off',
     'import/no-unresolved': 'off',
@@ -74,7 +85,8 @@ module.exports = {
     'react/display-name': 'off',
     'arrow-parens': 'off',
     'no-extra-boolean-cast': 'off',
-    'eqeqeq': 'off',
-    'react/no-access-state-in-setstate': 'off'
+    'eqeqeq': ['error', 'always'],
+    'react/no-access-state-in-setstate': 'off',
+    'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
   }
 };
