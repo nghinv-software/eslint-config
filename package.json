@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/nghinv-software/eslint-config#readme",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "cache": "~/.npm",
+    "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "eslint": "^7.0.0"
