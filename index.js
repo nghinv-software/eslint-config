@@ -88,6 +88,6 @@ module.exports = {
     'eqeqeq': ['error', 'always'],
     'react/no-access-state-in-setstate': 'off',
     'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
-    'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
+    'import/extensions': 'off',
   }
 };
