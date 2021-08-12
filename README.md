@@ -4,6 +4,7 @@
 
 ## Installation
 
+### Use typescript
 - use yarn
 
 ```bash
@@ -16,14 +17,29 @@ yarn add @nghinv/eslint-config --dev
 npm install -D @nghinv/eslint-config
 ```
 
+### Use javascript
+
+- use yarn
+
+```bash
+yarn add @nghinv/eslint-config@2.4.0 --dev
+```
+
+- use npm
+
+```bash
+npm install -D @nghinv/eslint-config@2.4.0
+```
+
 ## Usage
 
 In .eslintrc:
 
 ```javascript
-{ 
-  "extends": "@nghinv/eslint-config", 
-}
+module.exports = {
+  root: true,
+  extends: ['@nghinv/eslint-config'],
+};
 ```
 
 ## Dependencies

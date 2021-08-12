@@ -8,6 +8,8 @@ module.exports = {
     'airbnb',
     'eslint:recommended',
     'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:react-hooks/recommended',
   ],
   'globals': {
     'Atomics': 'readonly',
@@ -89,5 +91,14 @@ module.exports = {
     'react/no-access-state-in-setstate': 'off',
     'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
     'import/extensions': 'off',
+    'react/require-default-props': 'off',
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
+    '@typescript-eslint/ban-types': 'off',
+    'array-callback-return': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
+    'react-hooks/rules-of-hooks': 'off',
   }
 };
